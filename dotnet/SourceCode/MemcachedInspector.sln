@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemcachedInspector.UI.Windows", "Src\MemcachedInspector.UI.Windows\MemcachedInspector.UI.Windows.csproj", "{F4BBC116-BECF-491A-8574-0E592DC16011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{945C2E0E-FA4E-45F4-8F99-4060DA0E0469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemcachedInspector.Services", "Src\MemcachedInspector.Services\MemcachedInspector.Services.csproj", "{1E482CA7-19D0-4ACB-A037-64B9D41430E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7148CD1D-1C9E-47F5-ACD1-25F96306FD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemcachedInspector.UI.Process", "Src\MemcachedInspector.UI.Process\MemcachedInspector.UI.Process.csproj", "{724D3227-9F79-4027-9CA7-896F2FF4E1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemcachedInspector.Tests.UnitTests", "Test\MemcachedInspector.Tests.UnitTests\MemcachedInspector.Tests.UnitTests.csproj", "{A8BC8414-25E9-40C8-A9E7-5BAD6611562D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemcachedInspector.Common", "Src\MemcachedInspector.Common\MemcachedInspector.Common.csproj", "{3776F1EF-45A4-4209-A69E-6E583132DB37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4BBC116-BECF-491A-8574-0E592DC16011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BBC116-BECF-491A-8574-0E592DC16011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BBC116-BECF-491A-8574-0E592DC16011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BBC116-BECF-491A-8574-0E592DC16011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E482CA7-19D0-4ACB-A037-64B9D41430E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E482CA7-19D0-4ACB-A037-64B9D41430E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E482CA7-19D0-4ACB-A037-64B9D41430E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E482CA7-19D0-4ACB-A037-64B9D41430E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724D3227-9F79-4027-9CA7-896F2FF4E1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724D3227-9F79-4027-9CA7-896F2FF4E1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724D3227-9F79-4027-9CA7-896F2FF4E1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724D3227-9F79-4027-9CA7-896F2FF4E1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BC8414-25E9-40C8-A9E7-5BAD6611562D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BC8414-25E9-40C8-A9E7-5BAD6611562D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BC8414-25E9-40C8-A9E7-5BAD6611562D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BC8414-25E9-40C8-A9E7-5BAD6611562D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3776F1EF-45A4-4209-A69E-6E583132DB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3776F1EF-45A4-4209-A69E-6E583132DB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3776F1EF-45A4-4209-A69E-6E583132DB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3776F1EF-45A4-4209-A69E-6E583132DB37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4BBC116-BECF-491A-8574-0E592DC16011} = {945C2E0E-FA4E-45F4-8F99-4060DA0E0469}
+		{1E482CA7-19D0-4ACB-A037-64B9D41430E4} = {945C2E0E-FA4E-45F4-8F99-4060DA0E0469}
+		{724D3227-9F79-4027-9CA7-896F2FF4E1F9} = {945C2E0E-FA4E-45F4-8F99-4060DA0E0469}
+		{A8BC8414-25E9-40C8-A9E7-5BAD6611562D} = {7148CD1D-1C9E-47F5-ACD1-25F96306FD86}
+		{3776F1EF-45A4-4209-A69E-6E583132DB37} = {945C2E0E-FA4E-45F4-8F99-4060DA0E0469}
+	EndGlobalSection
+EndGlobal

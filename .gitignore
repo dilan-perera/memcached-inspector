@@ -41,3 +41,21 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+dotnet/SourceCode/Src/MemcachedInspector.Services/bin/Debug/MemcachedInspector.Services.pdb
+dotnet/SourceCode/Src/MemcachedInspector.Services/bin/Debug/MemcachedInspector.Services.dll
+dotnet/SourceCode/Src/MemcachedInspector.Services/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+dotnet/SourceCode/Src/MemcachedInspector.Services/obj/Debug/MemcachedInspector.Services.csprojResolveAssemblyReference.cache
+dotnet/SourceCode/Src/MemcachedInspector.Services/obj/Debug/MemcachedInspector.Services.dll
+/dotnet/SourceCode/Test/MemcachedInspector.Tests.UnitTests/obj/Debug
+/dotnet/SourceCode/Test/MemcachedInspector.Tests.UnitTests/bin/Debug
+/dotnet/SourceCode/Src/MemcachedInspector.UI.Windows/obj/Debug
+/dotnet/SourceCode/Src/MemcachedInspector.UI.Windows/bin/Debug
+/dotnet/SourceCode/Src/MemcachedInspector.UI.Process/obj/Debug
+/dotnet/SourceCode/Src/MemcachedInspector.UI.Process/bin/Debug
+/dotnet/SourceCode/Src/MemcachedInspector.Services/obj/Debug
+/dotnet/SourceCode/Src/MemcachedInspector.Services/bin/Debug
+/dotnet/SourceCode/Src/MemcachedInspector.Common/obj/Debug
+/dotnet/SourceCode/Src/MemcachedInspector.Common/bin/Debug
+/dotnet/SourceCode/.vs/MemcachedInspector/v14
+/dotnet/SourceCode/packages/EnyimMemcached.2.13
+/dotnet/SourceCode/packages/Newtonsoft.Json.8.0.3
