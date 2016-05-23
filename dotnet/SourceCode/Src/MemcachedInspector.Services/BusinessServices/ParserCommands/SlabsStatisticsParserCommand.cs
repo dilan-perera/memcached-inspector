@@ -61,6 +61,7 @@ namespace MemcachedInspector.Services.BusinessServices.ParserCommands
                     SlabDto slab = new SlabDto();
 
                     slab.ID = slabNumber;
+                    slab.Statistics.ID = slabNumber;
 
                     string key = string.Empty;
 

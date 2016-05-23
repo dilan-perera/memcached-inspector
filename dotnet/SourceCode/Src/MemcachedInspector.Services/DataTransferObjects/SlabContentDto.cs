@@ -13,32 +13,66 @@ namespace MemcachedInspector.Services.DataTransferObjects
     {
 
         [DataMember(Order = 1)]
-        public int ItemCount
+        public int ID
         {
             get;
             set;
         }
 
         [DataMember(Order = 2)]
-        public int OldestItemAge
+        public int ItemCount
         {
             get;
             set;
         }
 
         [DataMember(Order = 3)]
-        public int EvictedItemCount
+        public long OldestItemAge
         {
             get;
             set;
         }
 
         [DataMember(Order = 4)]
+        public int EvictedItemCount
+        {
+            get;
+            set;
+        }
+
+        [DataMember(Order = 5)]
         public int LastItemEvictedAt
         {
             get;
             set;
         }
 
+        [DataMember(Order = 6)]
+        public int LastNonZeroItemEvictedAt
+        {
+            get;
+            set;
+        }
+
+        [DataMember(Order = 7)]
+        public int OutOfMemoryTriggeringItemCount
+        {
+            get;
+            set;
+        }
+
+        [DataMember(Order = 8)]
+        public bool IsOutOfMemoryTriggerItemCountAvailable
+        {
+            get;
+            set;
+        }
+
+        [DataMember(Order = 9)]
+        public int TailRepairItemCount
+        {
+            get;
+            set;
+        }
     }
 }

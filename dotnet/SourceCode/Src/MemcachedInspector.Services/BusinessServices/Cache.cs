@@ -247,14 +247,41 @@ namespace MemcachedInspector.Services.BusinessServices
 
             this.EnsureConnected();
 
-            string response = this.ExecuteCommand(Cache.Commands.SlabsStatistics);
+            string response = string.Empty;
 
-            SlabsStatisticsParserCommand command = new SlabsStatisticsParserCommand(response);
+            response = this.ExecuteCommand(Cache.Commands.SlabsStatistics);
+            SlabsStatisticsParserCommand statsCommand = new SlabsStatisticsParserCommand(response);
+            statsCommand.Parse();
+            SlabsDto slabsStatsContainer = statsCommand.SlabContainer;
 
-            command.Parse();
+            response = this.ExecuteCommand(Cache.Commands.ItemsStatistics);
+            SlabContentParserCommand contentCommand = new SlabContentParserCommand(response);
+            contentCommand.Parse();
+            SlabsDto slabsContentContainer = contentCommand.SlabContainer;
 
-            slabsContainer = command.SlabContainer;
-            
+            slabsContainer = new SlabsDto();
+            slabsContainer.ActiveSlabCount = slabsStatsContainer.ActiveSlabCount;
+            slabsContainer.TotalMemoryAllocated = slabsStatsContainer.TotalMemoryAllocated;
+
+            foreach (SlabDto statSlab in slabsStatsContainer.Slabs)
+            {
+                foreach (SlabDto contentSlab in slabsContentContainer.Slabs)
+                {
+                    if (statSlab.ID == contentSlab.ID)
+                    {
+                        SlabDto slab = new SlabDto();
+
+                        slab.ID = statSlab.ID;
+                        slab.Statistics = statSlab.Statistics;
+                        slab.Contents = contentSlab.Contents;
+
+                        slabsContainer.Slabs.Add(slab);
+
+                        break;
+                    }
+                }
+            }
+
             return slabsContainer;
         }
 

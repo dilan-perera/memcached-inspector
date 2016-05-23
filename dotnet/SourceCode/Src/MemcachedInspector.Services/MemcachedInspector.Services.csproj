@@ -48,6 +48,7 @@
     <Compile Include="BusinessServices\CacheService.cs" />
     <Compile Include="BusinessServices\CacheAdministrationService.cs" />
     <Compile Include="BusinessServices\ParserCommands\ParserCommand.cs" />
+    <Compile Include="BusinessServices\ParserCommands\SlabContentParserCommand.cs" />
     <Compile Include="BusinessServices\ParserCommands\StatisticsParserCommand.cs" />
     <Compile Include="BusinessServices\ParserCommands\SlabsStatisticsParserCommand.cs" />
     <Compile Include="DataTransferObjects\ConnectionsDto.cs" />
