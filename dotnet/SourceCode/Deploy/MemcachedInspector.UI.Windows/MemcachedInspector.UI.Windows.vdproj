@@ -520,6 +520,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D791485A0EFE4FEBA071CCADC0E0E884"
+            {
+            "Name" = "8:Memcached Inspector"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_5167B35E318B40589CE1F5D1FBE2E8EB"
+            "Folder" = "8:_FBF1D76A21CE41D481A8CE7C92D52607"
+            "WorkingFolder" = "8:_47B6DF84974441DF91E3B8898CFF588A"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {

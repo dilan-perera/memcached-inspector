@@ -59,3 +59,4 @@ dotnet/SourceCode/Src/MemcachedInspector.Services/obj/Debug/MemcachedInspector.S
 /dotnet/SourceCode/.vs/MemcachedInspector/v14
 /dotnet/SourceCode/packages/EnyimMemcached.2.13
 /dotnet/SourceCode/packages/Newtonsoft.Json.8.0.3
+/dotnet/SourceCode/Deploy/MemcachedInspector.UI.Windows/Debug/setup.exe
